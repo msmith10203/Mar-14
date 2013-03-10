@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78AB6BA416EC4BC0008569AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AB6BA316EC4BC0008569AC /* UIKit.framework */; };
+		78AB6BA616EC4BC0008569AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AB6BA516EC4BC0008569AC /* Foundation.framework */; };
+		78AB6BA816EC4BC0008569AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AB6BA716EC4BC0008569AC /* CoreGraphics.framework */; };
+		78AB6BAE16EC4BC0008569AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78AB6BAC16EC4BC0008569AC /* InfoPlist.strings */; };
+		78AB6BB016EC4BC0008569AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AB6BAF16EC4BC0008569AC /* main.m */; };
+		78AB6BB416EC4BC0008569AC /* TapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AB6BB316EC4BC0008569AC /* TapAppDelegate.m */; };
+		78AB6BB616EC4BC0008569AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AB6BB516EC4BC0008569AC /* Default.png */; };
+		78AB6BB816EC4BC0008569AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AB6BB716EC4BC0008569AC /* Default@2x.png */; };
+		78AB6BBA16EC4BC0008569AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AB6BB916EC4BC0008569AC /* Default-568h@2x.png */; };
+		78AB6BC216EC4C6A008569AC /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AB6BC116EC4C6A008569AC /* View.m */; };
+		78AB6BC516EC5FD1008569AC /* TapUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AB6BC416EC5FD1008569AC /* TapUILabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78AB6BA016EC4BC0008569AC /* MyTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AB6BA316EC4BC0008569AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78AB6BA516EC4BC0008569AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78AB6BA716EC4BC0008569AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78AB6BAB16EC4BC0008569AC /* MyTap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTap-Info.plist"; sourceTree = "<group>"; };
+		78AB6BAD16EC4BC0008569AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78AB6BAF16EC4BC0008569AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78AB6BB116EC4BC0008569AC /* MyTap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTap-Prefix.pch"; sourceTree = "<group>"; };
+		78AB6BB216EC4BC0008569AC /* TapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapAppDelegate.h; sourceTree = "<group>"; };
+		78AB6BB316EC4BC0008569AC /* TapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapAppDelegate.m; sourceTree = "<group>"; };
+		78AB6BB516EC4BC0008569AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		78AB6BB716EC4BC0008569AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		78AB6BB916EC4BC0008569AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		78AB6BC016EC4C6A008569AC /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		78AB6BC116EC4C6A008569AC /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		78AB6BC316EC5FD1008569AC /* TapUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapUILabel.h; sourceTree = "<group>"; };
+		78AB6BC416EC5FD1008569AC /* TapUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapUILabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78AB6B9D16EC4BC0008569AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AB6BA416EC4BC0008569AC /* UIKit.framework in Frameworks */,
+				78AB6BA616EC4BC0008569AC /* Foundation.framework in Frameworks */,
+				78AB6BA816EC4BC0008569AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78AB6B9716EC4BC0008569AC = {
+			isa = PBXGroup;
+			children = (
+				78AB6BA916EC4BC0008569AC /* MyTap */,
+				78AB6BA216EC4BC0008569AC /* Frameworks */,
+				78AB6BA116EC4BC0008569AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78AB6BA116EC4BC0008569AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78AB6BA016EC4BC0008569AC /* MyTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78AB6BA216EC4BC0008569AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78AB6BA316EC4BC0008569AC /* UIKit.framework */,
+				78AB6BA516EC4BC0008569AC /* Foundation.framework */,
+				78AB6BA716EC4BC0008569AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78AB6BA916EC4BC0008569AC /* MyTap */ = {
+			isa = PBXGroup;
+			children = (
+				78AB6BB216EC4BC0008569AC /* TapAppDelegate.h */,
+				78AB6BB316EC4BC0008569AC /* TapAppDelegate.m */,
+				78AB6BC316EC5FD1008569AC /* TapUILabel.h */,
+				78AB6BC416EC5FD1008569AC /* TapUILabel.m */,
+				78AB6BC016EC4C6A008569AC /* View.h */,
+				78AB6BC116EC4C6A008569AC /* View.m */,
+				78AB6BAA16EC4BC0008569AC /* Supporting Files */,
+			);
+			path = MyTap;
+			sourceTree = "<group>";
+		};
+		78AB6BAA16EC4BC0008569AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78AB6BAB16EC4BC0008569AC /* MyTap-Info.plist */,
+				78AB6BAC16EC4BC0008569AC /* InfoPlist.strings */,
+				78AB6BAF16EC4BC0008569AC /* main.m */,
+				78AB6BB116EC4BC0008569AC /* MyTap-Prefix.pch */,
+				78AB6BB516EC4BC0008569AC /* Default.png */,
+				78AB6BB716EC4BC0008569AC /* Default@2x.png */,
+				78AB6BB916EC4BC0008569AC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78AB6B9F16EC4BC0008569AC /* MyTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78AB6BBD16EC4BC0008569AC /* Build configuration list for PBXNativeTarget "MyTap" */;
+			buildPhases = (
+				78AB6B9C16EC4BC0008569AC /* Sources */,
+				78AB6B9D16EC4BC0008569AC /* Frameworks */,
+				78AB6B9E16EC4BC0008569AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTap;
+			productName = MyTap;
+			productReference = 78AB6BA016EC4BC0008569AC /* MyTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78AB6B9816EC4BC0008569AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Tap;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Smith";
+			};
+			buildConfigurationList = 78AB6B9B16EC4BC0008569AC /* Build configuration list for PBXProject "MyTap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78AB6B9716EC4BC0008569AC;
+			productRefGroup = 78AB6BA116EC4BC0008569AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78AB6B9F16EC4BC0008569AC /* MyTap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78AB6B9E16EC4BC0008569AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AB6BAE16EC4BC0008569AC /* InfoPlist.strings in Resources */,
+				78AB6BB616EC4BC0008569AC /* Default.png in Resources */,
+				78AB6BB816EC4BC0008569AC /* Default@2x.png in Resources */,
+				78AB6BBA16EC4BC0008569AC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78AB6B9C16EC4BC0008569AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AB6BB016EC4BC0008569AC /* main.m in Sources */,
+				78AB6BB416EC4BC0008569AC /* TapAppDelegate.m in Sources */,
+				78AB6BC216EC4C6A008569AC /* View.m in Sources */,
+				78AB6BC516EC5FD1008569AC /* TapUILabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78AB6BAC16EC4BC0008569AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78AB6BAD16EC4BC0008569AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78AB6BBB16EC4BC0008569AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78AB6BBC16EC4BC0008569AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78AB6BBE16EC4BC0008569AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTap/MyTap-Prefix.pch";
+				INFOPLIST_FILE = "MyTap/MyTap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78AB6BBF16EC4BC0008569AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTap/MyTap-Prefix.pch";
+				INFOPLIST_FILE = "MyTap/MyTap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78AB6B9B16EC4BC0008569AC /* Build configuration list for PBXProject "MyTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AB6BBB16EC4BC0008569AC /* Debug */,
+				78AB6BBC16EC4BC0008569AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78AB6BBD16EC4BC0008569AC /* Build configuration list for PBXNativeTarget "MyTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AB6BBE16EC4BC0008569AC /* Debug */,
+				78AB6BBF16EC4BC0008569AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78AB6B9816EC4BC0008569AC /* Project object */;
+}
